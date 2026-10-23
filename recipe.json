@@ -1,0 +1,30 @@
+{
+ "name": "Hankha",
+ "slug": "Hankha",
+ "native": "ຮ້ານຄ້າ",
+ "version": "0.100",
+ "cat": "painted",
+ "title": "Shop sign with shadow",
+ "insp": "Rye, Sancreek, old shopfront signs",
+ "bases": {
+  "lao": "lao",
+  "thai": "thai",
+  "khmer": "khmer",
+  "latin": "latin"
+ },
+ "recipe": [
+  {
+   "op": "nib",
+   "shape": "ellipse",
+   "w": 115,
+   "h": 48,
+   "angle": 20
+  },
+  {
+   "op": "shadow",
+   "dx": 30,
+   "dy": -30,
+   "gap": 9
+  }
+ ]
+}
